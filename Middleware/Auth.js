@@ -20,6 +20,4 @@ app.get('/', (req, res) => {
     res.send('Welcome to the dashboard!');
 });
 
-app.listen(3000, () => {
-    console.log('App started on port 3000');
-});
+app.listen(3000, () => console.log('Server running on port 3000'));
