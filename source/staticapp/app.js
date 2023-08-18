@@ -13,4 +13,4 @@ app.use((req, res) => {
     res.end("Looks like you didnt find a static file.");
 });
 
-http.createServer(app).listen(3000);
+console.log(http.createServer(app).listen(3000));
