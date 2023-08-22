@@ -1,9 +1,13 @@
 body{
     background-color: wheat;
 }
+.content{
+    display: flex;
+    justify-content: center;
+}
 .title{
     border: 2px solid black;
-    display: flex;
+    padding: 5px;
+    height: 150px;
     align-items: center;
-    justify-content: center;
 }
