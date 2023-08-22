@@ -1,5 +1,7 @@
+//Import the express module
 import express from 'express';
 
+//Create instance of app
 const app = express();
 
     //Parse JSON data
